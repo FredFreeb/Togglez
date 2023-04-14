@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    /* margin: 20px; */
+    font-family: "Paytone One";
+    color: #202020;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+h1 span {
+    display: block;
+    margin: 11px 0 17px 0;
+    font-size: 80px;
+    line-height: 80px;
+    color: #c40e0e;
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+    letter-spacing: -4px;
+
+}
+.container{
+    /* en view height pour que le bouton reste centrer au milieu de l'écran */
+    margin-top: 35vh;
+    text-align: center;
+    align-items: center;
+}
+/* Une classe pour chaque fond */
+.first {
+    /* j'ai réussi mais dans mon github les fichiers ne sont pas rangés */
+    background: url(https://raw.githubusercontent.com/FredFreeb/assets/divers/Cr%C3%A9ation-bing.png) no-repeat fixed;
+    background-size: cover;
+}
+.secondary {
+    background: url(https://raw.githubusercontent.com/FredFreeb/assets/divers/creationAI.png) no-repeat fixed;
+    background-size: cover;
+}
+.third {
+    background: url(https://raw.githubusercontent.com/FredFreeb/assets/divers/creationIA.png) no-repeat fixed;
+    background-size: cover;
+}
+.four {
+    background: url(https://github.com/FredFreeb/assets/blob/divers/OIG.jfif) no-repeat fixed;
+    background-size: cover;
+}
+/* Les fonds sont en fixed pour qu'ils répondent à la hauteur */
